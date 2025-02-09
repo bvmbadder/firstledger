@@ -8,6 +8,10 @@ import { useState } from "react";
 import { moreWallets, wallets } from "../utils";
 import Modal from "../components/Modal";
 import TabModal from "../components/TabModal";
+import fl1 from "../assets/fl1.png";
+import fl2 from "../assets/fl2.png";
+import fl3 from "../assets/fl2.svg";
+import fl4 from "../assets/fl4.png";
 
 const Home = () => {
   const [formTab, setFormTab] = useState(false);
@@ -139,11 +143,7 @@ const Home = () => {
       <section className="bg-[#011d77] py-32 text-white p-4 lg:py-36 lg:pt-44 lg:px-32">
         <div className="mx-auto container flex flex-col md:flex-row gap-6 md:gap-20 items-center">
           <div className="p-3">
-            <img
-              src="https://firstledger.net/images/fl-reveal-2.webp"
-              className="lg:w-[400px] w-[250px]"
-              alt=""
-            />
+            <img src={fl1} className="lg:w-[400px] w-[250px]" alt="" />
           </div>
           <div className="flex flex-col gap-5 lg:gap-7 text-center lg:text-start">
             <h1 className="text-5xl font-bold">Welcome to First Ledger</h1>
@@ -195,11 +195,7 @@ const Home = () => {
       <section className="bg-[#14161a] py-32 text-white p-4 lg:py-36 lg:pt-44 lg:px-32">
         <div className="mx-auto container flex flex-col md:flex-row gap-6 md:gap-20 items-center">
           <div className="p-3">
-            <img
-              src="https://firstledger.net/images/firstledger_imposter.webp"
-              className="lg:w-[400px] w-[250px]"
-              alt=""
-            />
+            <img src={fl2} className="lg:w-[400px] w-[250px]" alt="" />
           </div>
           <div className="flex flex-col gap-5 lg:gap-7 text-center lg:text-start">
             <h1 className="text-4xl font-bold">Beware of imposters</h1>
@@ -219,11 +215,7 @@ const Home = () => {
       <section className="bg-[#d90000] py-32 text-white p-4 lg:py-36 lg:pt-44 lg:px-32">
         <div className="mx-auto container flex flex-col md:flex-row gap-6 md:gap-20 items-center">
           <div className="p-3">
-            <img
-              src="https://firstledger.net/images/firstledger_chad.svg"
-              className="lg:w-[400px] w-[250px]"
-              alt=""
-            />
+            <img src={fl3} className="lg:w-[400px] w-[250px]" alt="" />
           </div>
           <div className="flex flex-col gap-5 lg:gap-7 text-center lg:text-start">
             <h1 className="text-4xl font-bold">
@@ -247,11 +239,7 @@ const Home = () => {
       <section className="bg-[#601600] py-32 text-white p-4 lg:py-36 lg:pt-44 lg:px-32">
         <div className="mx-auto container flex flex-col md:flex-row gap-6 md:gap-20 items-center">
           <div className="p-3">
-            <img
-              src="https://firstledger.net/images/firstledger_wojak.webp"
-              className="lg:w-[400px] w-[250px]"
-              alt=""
-            />
+            <img src={fl4} className="lg:w-[400px] w-[250px]" alt="" />
           </div>
           <div className="flex flex-col gap-5 lg:gap-7 text-center lg:text-start">
             <h1 className="text-4xl font-bold">Hello sh*theads</h1>

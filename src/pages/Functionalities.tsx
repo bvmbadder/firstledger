@@ -134,7 +134,7 @@ const Functionalities = () => {
         </div>
       </Modal>
       <Header />
-      <section className="">
+      <section className="bg-[#011d77] py-32 text-white p-4 lg:py-36 lg:pt-44 lg:px-32">
         <div className="container mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 ">
             {items.map((item, index) => (
