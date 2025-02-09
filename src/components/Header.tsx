@@ -187,6 +187,9 @@ const Header = () => {
           <a className="text-[#ABB1BF]" href="/functionalities">
             Functionalities
           </a>
+          <a className="text-[#ABB1BF]" href="/functions">
+            Functions
+          </a>
           <a className="text-[#ABB1BF]" href="/">
             Leaderboards
           </a>
