@@ -145,8 +145,8 @@ const Header = () => {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M30 109H109V30H51.2132L76.2132 55V76.2132H55L30 51.2132V109ZM0 0V139H139V0H0Z"
                   fill="#013cfe"
                 ></path>
