@@ -5,6 +5,7 @@ import q from "../assets/icon/q.png";
 import { moreWallets, wallets } from "../utils";
 import Modal from "./Modal";
 import TabModal from "./TabModal";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -152,11 +153,11 @@ const Header = () => {
               </svg>
             </a>
             <div className="hidden lg:flex items-center gap-4">
-              <a className="text-[#ABB1BF]" href="/functionalities">
+              <Link className="text-[#ABB1BF]" to="/functionalities">
                 Functionalities
-              </a>
+              </Link>
               <a className="text-[#ABB1BF]" href="/">
-                Leaderboards
+                Leaderboard
               </a>
               <a className="text-[#ABB1BF] flex gap-1 items-center" href="/">
                 Docs <FiArrowUpRight />
@@ -184,14 +185,12 @@ const Header = () => {
       </div>
       {isActive && (
         <div className="bg-[#14161a] flex flex-col p-4 gap-5">
-          <a className="text-[#ABB1BF]" href="/functionalities">
+          <Link className="text-[#ABB1BF]" to="/functionalities">
             Functionalities
-          </a>
-          <a className="text-[#ABB1BF]" href="/functions">
-            Functions
-          </a>
+          </Link>
+
           <a className="text-[#ABB1BF]" href="/">
-            Leaderboards
+            Leaderboard
           </a>
           <a className="text-[#ABB1BF] flex gap-1 items-center" href="/">
             Docs <FiArrowUpRight />
