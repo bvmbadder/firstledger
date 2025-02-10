@@ -450,7 +450,7 @@ export const moreWallets = [
     icon: xdefi,
   },
   {
-    name: "xrph",
+    name: "Xrph",
     icon: xrph,
   },
   {
