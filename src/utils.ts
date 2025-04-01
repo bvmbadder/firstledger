@@ -2,6 +2,7 @@ import Recovery from "./assets/func/recovery.png";
 import Metamask from "./assets/wallets/metamask.png";
 import Phantom from "./assets/wallets/phantom-wallet.png";
 import Walletconnect from "./assets/wallets/walletconnect.png";
+import Ledger from "./assets/wallets/ledger.png";
 import All from "./assets/wallets/all.png";
 import abc from "./assets/wallets/abc.png";
 import ambire from "./assets/wallets/ambire.png";
@@ -192,7 +193,7 @@ export const wallets = [
   {
     id: 3,
     name: "Ledger",
-    icon: Walletconnect,
+    icon: Ledger,
   },
   {
     id: 7,
@@ -228,6 +229,10 @@ export const moreWallets = [
   {
     name: "MetaMask",
     icon: Metamask,
+  },
+  {
+    name: "Ledger",
+    icon: Ledger,
   },
   {
     name: "abc",
